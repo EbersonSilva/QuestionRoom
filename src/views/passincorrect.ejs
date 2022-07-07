@@ -1,0 +1,14 @@
+<!-- Alerta quando a senha for digitada incorretamente -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Senha Incorreta</title>
+    <script>
+      confirm('Senha incorreta')
+      window.location.replace('/room/<%= roomId %>')
+    </script>
+  </head>
+</html>
